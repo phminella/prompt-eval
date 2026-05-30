@@ -12,7 +12,7 @@ It supports two evaluation modes:
 From another project, install this package from the local folder:
 
 ```powershell
-pip install -e C:\Users\SM\Desktop\localhost\prompt-eval
+pip install -e *:\****\****
 ```
 
 ## Usage
