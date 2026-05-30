@@ -1,0 +1,51 @@
+{
+  "title": "Customer Support Ticket Dataset",
+  "description": "A compact dataset for testing ticket classification and response prompts.",
+  "tickets": [
+    {
+      "id": "TCK-1001",
+      "customer": "Maya Chen",
+      "category": "billing",
+      "priority": "high",
+      "subject": "Charged twice for monthly subscription",
+      "message": "I was billed twice for the same monthly plan on May 18. Please refund the duplicate charge.",
+      "expected_action": "Verify duplicate payment and issue refund if confirmed."
+    },
+    {
+      "id": "TCK-1002",
+      "customer": "Jon Bell",
+      "category": "technical",
+      "priority": "medium",
+      "subject": "Cannot export report as CSV",
+      "message": "The export button spins forever when I try to download my analytics report.",
+      "expected_action": "Collect browser details and provide workaround while escalating bug."
+    },
+    {
+      "id": "TCK-1003",
+      "customer": "Priya Shah",
+      "category": "account",
+      "priority": "low",
+      "subject": "Change account email address",
+      "message": "I need to update the email address on my account before my old email is deactivated.",
+      "expected_action": "Explain identity verification and email change steps."
+    },
+    {
+      "id": "TCK-1004",
+      "customer": "Luis Romero",
+      "category": "shipping",
+      "priority": "medium",
+      "subject": "Package marked delivered but not received",
+      "message": "Tracking says my package was delivered yesterday, but it is not at my door or mailbox.",
+      "expected_action": "Suggest checking nearby locations and open carrier investigation."
+    },
+    {
+      "id": "TCK-1005",
+      "customer": "Ava Thompson",
+      "category": "cancellation",
+      "priority": "low",
+      "subject": "Cancel annual renewal",
+      "message": "Please cancel my upcoming annual renewal. I do not want to be charged next month.",
+      "expected_action": "Confirm renewal date and cancellation policy."
+    }
+  ]
+}

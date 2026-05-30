@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-eval"
+version = "0.1.0"
+description = "A small prompt evaluation helper for scoring direct answers and generated files with LLM judges."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "SM" }
+]
+dependencies = [
+  "openai>=1.0.0"
+]
+
+[project.optional-dependencies]
+claude = ["anthropic>=0.34.0"]
+gemini = ["google-genai>=0.3.0"]
+all = [
+  "openai>=1.0.0",
+  "anthropic>=0.34.0",
+  "google-genai>=0.3.0"
+]
+
+[tool.setuptools.packages.find]
+include = ["prompt_eval*"]
+
+[tool.setuptools.package-data]
+prompt_eval = ["py.typed"]

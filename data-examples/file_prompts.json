@@ -1,0 +1,18 @@
+[
+  {
+    "file": "dataset.json",
+    "prompt": "Create a JSON file containing a compact customer support ticket dataset. Include a title, short description, and exactly 5 tickets. Each ticket must include id, customer, category, priority, subject, message, and expected_action."
+  },
+  {
+    "file": "dataset.html",
+    "prompt": "Create a complete standalone HTML file for a beginner 5K weekly training plan. It should include a title, a short subtitle, basic CSS, and a table with one row for each day of the week. Each row should include day, workout, duration, and notes."
+  },
+  {
+    "file": "dataset.docx",
+    "prompt": "Create a Word document project brief for an internal AI prompt evaluation tool. Include a title, overview, goals, deliverables, evaluation criteria, and next steps. Keep it concise and useful for a small engineering team."
+  },
+  {
+    "file": "dataset.xlsx",
+    "prompt": "Create an Excel workbook with quarterly sales data for testing spreadsheet evaluation. Include columns for Quarter, Product, Region, Units Sold, Revenue, and Notes. Include at least 8 realistic rows and a totals row."
+  }
+]
